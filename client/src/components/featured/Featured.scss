@@ -1,0 +1,131 @@
+/* Featured.scss */
+
+.featured {
+  position: relative;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust the height as needed */
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto; /* Center the container horizontally */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  /* Add other container styles here */
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  /* Add other left styles here */
+
+  h1 {
+    font-size: 50px;
+    font-weight: bold;
+    span {
+      display: block;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 18px;
+    }
+  }
+
+  .search {
+    /* Add search styles here */
+    display: flex;
+    margin-left: 35%;
+    flex-direction: row; /* Change the direction to row */
+    align-items: center;
+
+    .searchInput {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      img {
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+      }
+
+      input {
+        border: none;
+        outline: none;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        &::placeholder {
+          color: gray;
+        }
+      }
+    }
+
+    button {
+      margin-left: 10px; /* Add a margin to separate the button from the input */
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: #4085a1;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    }
+  }
+
+  .popular {
+    /* Add popular styles here */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+
+    span {
+      width: max-content;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    button {
+      color: white;
+      border: 1px solid white;
+      padding: 5px 10px;
+      border-radius: 20px;
+      background-color: transparent;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }
+}
+
+/* You can add styles for .right or other elements here if needed */
