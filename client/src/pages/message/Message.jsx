@@ -34,7 +34,8 @@ const Messages = () => {
   }, {
     onSuccess: () => {
       // Invalidate and refetch the data after successful mutation
-      navigate(`/messages/${sellerId}/${buyerId}`)
+      navigate(`/messages/${sellerId}/${buyerId}`);
+     // window.location.reload();
     },
   });
 

@@ -78,13 +78,13 @@ function Navbar() {
           <Link className="link" to="/">
             <span className="text">Home</span>
           </Link>
-          <Link className="link" to="/services">
+          <Link className="link" to="https://ziegler-aerospace.co.uk/services/">
             <span className="text">Services</span>
           </Link>
-          <Link className="link" to="/careers">
+          <Link className="link" to="https://ziegler-aerospace.co.uk/careers/">
             <span className="text">Careers</span>
           </Link>
-          <Link className="link" to="/training">
+          <Link className="link" to="https://ziegler-aerospace.co.uk/training/">
             <span className="text">Training</span>
           </Link>
           <Link className="link" to="/gigs">
