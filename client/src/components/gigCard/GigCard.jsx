@@ -47,8 +47,8 @@ const GigCard = ({ item }) => {
             "Something went wrong!"
           ) : (
             <div className="user">
-              <img src={data.img || "/img/noavatar.jpg"} alt="" />
-              <span>{data.username}</span>
+              {/* <img src={data.img || "/img/noavatar.jpg"} alt="" /> */}
+              <span>{item.title}</span>
             </div>
           )}
           <p>{item.desc}</p>

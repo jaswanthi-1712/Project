@@ -68,7 +68,7 @@ function Navbar() {
         <div className="logo">
           <a href="/" className="image-link">
             <img
-              src="./img/zalogo.png"
+              src="http://localhost:5173/img/zalogo.png"
               alt="Link Image"
               className="left-image"
             />

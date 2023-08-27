@@ -9,7 +9,7 @@ function Footer() {
           <div className="item">
             <a href="/" className="image-link">
               <img
-                src="./img/zalogo.png"
+                src="http://localhost:5173/img/zalogo.png"
                 alt="Link Image"
                 className="left-image"
               />
